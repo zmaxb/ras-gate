@@ -289,6 +289,17 @@ Typical API errors are `400 bad_request`, `401 unauthorized`,
 Responses include `X-Trace-Id`, which can be used to find the matching server
 log entry. OpenAPI JSON is available at `/openapi/v1.json` in `Development`.
 
+## Related projects
+
+RasGate is part of the [Ras Ecosystem](https://github.com/RasEcosystem):
+
+- [RasHub](https://github.com/RasEcosystem/ras-hub) — the central
+  management service that connects RasStudio to RasGate and provides a unified
+  API;
+- [RasStudio Mono](https://github.com/RasEcosystem/ras-studio-mono) — an
+  experimental monolithic web client for administering 1C:Enterprise clusters
+  through RasHub and RasGate.
+
 ## License
 
 See [LICENSE](LICENSE).

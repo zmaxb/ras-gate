@@ -287,6 +287,16 @@ docker compose down
 В ответах есть `X-Trace-Id`, по которому удобно искать запись в серверном логе.
 OpenAPI JSON доступен по `/openapi/v1.json` в окружении `Development`.
 
+## Связанные проекты
+
+RasGate входит в [Ras Ecosystem](https://github.com/RasEcosystem):
+
+- [RasHub](https://github.com/RasEcosystem/ras-hub) — центральный сервис
+  управления, который связывает RasStudio с RasGate и предоставляет единый API;
+- [RasStudio Mono](https://github.com/RasEcosystem/ras-studio-mono) —
+  экспериментальный монолитный веб-клиент для администрирования кластеров
+  1С:Предприятия через RasHub и RasGate.
+
 ## Лицензия
 
 См. [LICENSE](LICENSE).
